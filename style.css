@@ -1,0 +1,35 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("sad.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    font-size: xx-large;
+    color: rgb(24, 27, 29);
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.container {
+    width: 500px;
+    border-radius: 14px;
+    justify-content: center;
+    padding: 15px 30px;
+    margin: 10px auto;
+    position: absolute;
+    opacity: 0.6;
+    }
+.img {
+    width: 250px;
+    height: 250px;
+    border-radius: 70%;
+}
+.heading::first-letter{
+    font-size: 50px;
+    color: rgb(40, 61, 80);
+    font-weight: bolder;
+}
+
+
